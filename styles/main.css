@@ -21,7 +21,7 @@ header::after {
     clear: both;
 }
 
-.home {
+.joshhunkin {
     font-family: 'Varela Round', sans-serif;
     float: left;
     font-size: xx-large;
@@ -29,10 +29,12 @@ header::after {
     padding: 10px 0;
     text-transform: uppercase;
     position: relative;
-    
+    right: 500px;
+    top: 18px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
-
-
 
 
 nav {
@@ -50,7 +52,8 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 150px;
-    padding-top: 25px;
+    padding-top: 0px;
+    bottom: 10px;
     position: relative;
 }
 
@@ -74,7 +77,7 @@ nav a::before{
     width: 0%;
     background-color: rgb(255,242,230);
     position: absolute;
-    top: 0;
+    bottom: 30px;
     transition: all ease-in-out 350ms;
 }
 
@@ -82,10 +85,10 @@ nav a:hover::before {
     width: 100%;
 }
 
-.home:hover {
+.joshhunkin:hover {
     color: black;
 }
-.home::before{
+.joshhunkin::before{
     content: '';
     display: block;
     height: 5px;
@@ -97,7 +100,7 @@ nav a:hover::before {
 
 }
 
-.home:hover::before {
+.joshhunkin:hover::before {
     width: 100%;
 }
 
@@ -112,3 +115,11 @@ p {
     padding: 0 50px;
     margin: 0px;
 }
+
+.lists {
+    margin: 0;
+    padding: 0 100px;
+    font-size: x-large;
+    font-weight: 300;
+}
+
