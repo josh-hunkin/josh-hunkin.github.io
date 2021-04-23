@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Yantramanav', sans-serif;
+    background-color: rgb(255,242,230);
+}
+
+.container {
+width: 80%;
+margin: 0 auto;
+
+}
+
+header {
+    background: rgb(255,179,179);
+}
+
+header::after {
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.joshhunkin {
+    font-family: 'Varela Round', sans-serif;
+    float: left;
+    font-size: xx-large;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+    position: relative;
+    right: 500px;
+    top: 18px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+nav {
+    float: right;
+    font-family: 'Varela Round', sans-serif;
+    font-size: large;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 150px;
+    padding-top: 0px;
+    bottom: 10px;
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+nav a:hover {
+
+    color: rgb(255,242,230);
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: rgb(255,242,230);
+    position: absolute;
+    bottom: 30px;
+    transition: all ease-in-out 350ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.joshhunkin:hover {
+    color: black;
+}
+.joshhunkin::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 350ms;
+
+}
+
+.joshhunkin:hover::before {
+    width: 100%;
+}
+
+h1 {
+    margin: 50px;
+    padding: 0px;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+    padding: 0 50px;
+    margin: 0px;
+}
+
+.lists {
+    margin: 0;
+    padding: 0 100px;
+    font-size: x-large;
+    font-weight: 300;
+}
+
