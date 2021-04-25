@@ -1,125 +1,148 @@
 body {
     margin: 0;
-    font-family: 'Yantramanav', sans-serif;
-    background-color: rgb(255,242,230);
-}
-
-.container {
-width: 80%;
-margin: 0 auto;
-
-}
-
-header {
-    background: rgb(255,179,179);
-}
-
-header::after {
-
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.joshhunkin {
-    font-family: 'Varela Round', sans-serif;
-    float: left;
-    font-size: xx-large;
-    margin: 0;
-    padding: 10px 0;
-    text-transform: uppercase;
-    position: relative;
-    right: 500px;
-    top: 18px;
-    text-decoration: none;
-    list-style: none;
-    color: black;
-}
-
-
-nav {
-    float: right;
-    font-family: 'Varela Round', sans-serif;
-    font-size: large;
-}
-
-nav ul {
-    margin: 0;
     padding: 0;
-    list-style: none;
+    background-color: rgb(255,230,230); 
+    
 }
 
-nav li {
-    display: inline-block;
-    margin-left: 150px;
-    padding-top: 0px;
-    bottom: 10px;
-    position: relative;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-
-nav a:hover {
-
-    color: rgb(255,242,230);
-}
-
-nav a::before{
-    content: '';
-    display: block;
-    height: 5px;
-    width: 0%;
-    background-color: rgb(255,242,230);
-    position: absolute;
-    bottom: 30px;
-    transition: all ease-in-out 350ms;
-}
-
-nav a:hover::before {
+.wrapper {
     width: 100%;
 }
 
-.joshhunkin:hover {
-    color: black;
-}
-.joshhunkin::before{
-    content: '';
-    display: block;
-    height: 5px;
-    width: 0%;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    transition: all ease-in-out 350ms;
 
-}
-
-.joshhunkin:hover::before {
+.img-info {
     width: 100%;
+
 }
 
 h1 {
-    margin: 50px;
-    padding: 0px;
+    text-align: center;
+    padding: 30px 80px 0px;
+    color: rgb(26,50,0);
+    line-height: 44px;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    
 }
 
 p {
-    font-size: large;
-    font-weight: bold;
-    padding: 0 50px;
-    margin: 0px;
+    padding: 30px 80px 20px;
+    font-family: 'Yantramanav', sans-serif;
+    color: black;
+    line-height: 24px;
+    font-size: 25px;
+    text-align: center;
 }
 
-.lists {
+ul {
+    list-style-type: none;
+    padding: 0;
     margin: 0;
-    padding: 0 100px;
-    font-size: x-large;
-    font-weight: 300;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    
+    
+
 }
 
+li {
+    display: inline-block;
+    font-family: 'Baloo 2', cursive;
+    font-size: x-large;
+}
+
+a {
+    padding: 50px;
+    text-decoration: none;
+    text-align: center;
+    top: 0;
+    
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    background-image: linear-gradient(to right, rgb(255,230,230), rgb(255,230,230));
+    color: black;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transition: 1s;
+
+    
+}
+
+.devacademy {
+    width: 500px;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 50px;
+}
+
+.devacademy2 {
+    width: 500px;
+    border-radius: 150px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    right: 50px;
+}
+
+.devacademyofficial {
+    width: 400px;
+    border-radius: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 290px;
+    left: 760px;
+    height: 350px;
+    
+}
+
+.counterstrikedlore {
+    width: 500px;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-p {
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    font-size: x-large;
+}
+
+.div2 {
+    background-image: linear-gradient(to right, rgb(255,230,230), rgb(255,230,230), rgb(255,179,179));
+}
+
+.musicproduction{
+    width: 500px;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.project-p2 {
+    position: absolute;
+    left: 600px;
+    top: 570px;
+    font-size: x-large;
+}
+
+.divmusic {
+    background-image: linear-gradient(to right, rgb(255,179,179), rgb(255,230,230), rgb(255,230,230));
+    
+}
