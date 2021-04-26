@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(255,230,230); 
-    
 }
 
 .wrapper {
@@ -17,7 +16,7 @@ body {
 
 h1 {
     text-align: center;
-    padding: 30px 80px 0px;
+    padding: 30px 65px 0px;
     color: rgb(26,50,0);
     line-height: 44px;
     position: relative;
@@ -27,12 +26,13 @@ h1 {
 }
 
 p {
-    padding: 30px 80px 20px;
+    padding: 30px 65px 20px;
     font-family: 'Yantramanav', sans-serif;
     color: black;
     line-height: 24px;
     font-size: 25px;
     text-align: center;
+    
 }
 
 ul {
@@ -44,7 +44,6 @@ ul {
     width: 100%;
     overflow: hidden;
     background-color: black;
-    
     
 
 }
@@ -64,7 +63,8 @@ a {
 }
 
 li a {
-    color: white;
+    color: rgb(255,230,230);
+    text-transform: uppercase;
 }
 
 li a:hover {
@@ -146,3 +146,11 @@ li a:hover {
     background-image: linear-gradient(to right, rgb(255,179,179), rgb(255,230,230), rgb(255,230,230));
     
 }
+
+.thick {
+    text-align: center;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 30px;
+    
+}
+
