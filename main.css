@@ -5,7 +5,10 @@ body {
 }
 
 .wrapper {
-    width: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 
@@ -35,40 +38,39 @@ p {
     
 }
 
-ul {
+.top-nav {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 100%;
+    margin: 0 auto;
     overflow: hidden;
-    background-color: black;
-    
+    width: 100%;
+    background-color: rgb(0,173,247);
+    position: fixed;
+    top: 0;
+    width: 100%;
 
 }
 
-li {
+.top-navli {
     display: inline-block;
     font-family: 'Baloo 2', cursive;
     font-size: x-large;
 }
 
-a {
+.top-nava {
     padding: 50px;
     text-decoration: none;
     text-align: center;
-    top: 0;
     
 }
 
-li a {
+.top-navli .top-nava {
     color: rgb(255,230,230);
     text-transform: uppercase;
     
 }
 
-li a:hover {
+.top-navli a:hover {
     background-image: linear-gradient(to right, rgb(255,230,230), rgb(255,230,230));
     color: black;
     transition-property: all;
@@ -125,7 +127,7 @@ li a:hover {
 }
 
 .div2 {
-    background-image: linear-gradient(to right, rgb(255,230,230), rgb(255,230,230), rgb(255,179,179));
+    background-image: linear-gradient(to right, rgb(255,230,230), rgb(255,230,230), rgb(96,212,247));
 }
 
 .musicproduction{
@@ -144,7 +146,7 @@ li a:hover {
 }
 
 .divmusic {
-    background-image: linear-gradient(to right, rgb(255,179,179), rgb(255,230,230), rgb(255,230,230));
+    background-image: linear-gradient(to right, rgb(62,228,247), rgb(255,230,230), rgb(255,179,179));
     
 }
 
@@ -172,3 +174,34 @@ h3 {
 .spacefromtop {
     padding-top: 100px;
 }
+
+.side-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: ;
+    position: fixed;
+    height: 100%;
+    
+  }
+  
+ .side-navli .side-nava {
+    display: block;
+    padding: 8px 50px;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+    font-size: large;
+    text-align: center;
+  }
+  .side-nava {
+      color: black;
+  }
+  .side-navli :hover {
+    background-color: rgb(0,173,247);
+    color: black;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+    transition: 0.5s;
+  }
