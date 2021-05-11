@@ -207,3 +207,14 @@ h3 {
   .logo {
       float: left;
   }
+
+  ul {
+    
+  }
+
+  li {
+      text-decoration: none;
+      list-style: none;
+      text-align: center;
+      font-family: 'Yantramanav', sans-serif;
+  }
